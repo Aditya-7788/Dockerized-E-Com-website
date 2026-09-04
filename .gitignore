@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# never commit real secrets
+.env
+backend/.env
+frontend/.env
+admin/.env
+
+# but do commit the templates
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+!admin/.env.example
+
+.DS_Store
+*.log
